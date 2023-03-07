@@ -11,4 +11,4 @@ const jokesServiceById = async (id) => {
     return await axios.get(`${process.env.jokesURL}${id}`);
 }
 
-module.exports = {jokesService, jokesServiceById};
+module.exports = { jokesService, jokesServiceById };
